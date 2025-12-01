@@ -1,5 +1,7 @@
 # Vaul Vue
 
+This is a fork from the [Vaul Vue repo](https://github.com/unovue/vaul-vue), i created this fork with a bugfix for the snap-points.
+
 Vaul Vue is an unstyled drawer component for Vue that can be used as a Dialog replacement on tablet and mobile devices.
 It uses [Reka UI's Dialog primitive](https://www.reka-ui.com/docs/components/dialog) under the hood and is a feature complete port of [Emil Kowalski's Vaul library](https://github.com/emilkowalski/vaul) (built for React).
 
@@ -43,3 +45,4 @@ All credits go to these open-source works and resources
 
 - Major credits go to [Emil Kowalski](https://emilkowal.ski/) for the original [Vaul library](https://github.com/emilkowalski/vaul).
 - [Reka UI](https://www.reka-ui.com/) for the Dialog primitive used under the hood.
+- [unovue](https://github.com/unovue) for creating the vue port
