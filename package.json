@@ -10,7 +10,8 @@
     "release": "pnpm -r release && changeset publish",
     "dev:build": "pnpm --filter vaul-vue dev",
     "build:package": "pnpm --filter vaul-vue build-only",
-    "build:playground": "pnpm build:package && pnpm --filter playground build"
+    "build:playground": "pnpm build:package && pnpm --filter playground build",
+    "prepare": "pnpm install && pnpm build:package"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.4",
